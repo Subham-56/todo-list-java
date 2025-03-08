@@ -19,7 +19,7 @@ public class ToDoList {
             System.out.print("Choose an option: ");
             
             int choice = scanner.nextInt();
-            scanner.nextLine(); // consume newline
+            scanner.nextLine(); 
             
             switch (choice) {
                 case 1:
